@@ -11,7 +11,7 @@ import EditPost from "./components/EditPost";
 import { useEffect } from "react";
 import useAxiosFetch from "./Hooks/useAxiosFetch";
 import { Route, Routes } from "react-router-dom";
-import { action, useStoreActions } from "easy-peasy";
+import { useStoreActions } from "easy-peasy";
 
 function App() {
   const setPosts = useStoreActions((actions) => actions.setPosts);
